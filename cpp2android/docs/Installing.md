@@ -27,7 +27,7 @@ For AndroidStudio 3.0.1:
  * In your MainActivity.OnCreate add (probably at the end):
 
    ```java
-   cppInterface.Main.OnCreate(main_layout.getContext(), main_layout);
+   cpp2android.Main.OnCreate(main_layout.getContext(), main_layout);
    ```
 
    Where `main_layout` is ViewGroup which will be considered by cpp2android, as root layout.
