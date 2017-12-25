@@ -5,10 +5,11 @@ public class SignalReceiver extends SignalReceiverBase{
         void run();
     };
     private Listener listener = null;
-
     public void listen(Listener listener){
         this.listener = listener;
     }
+
+    protected SignalReceiver(){}
     static public SignalReceiver make(String id){
         return make(id, SignalReceiver.class);
     }
