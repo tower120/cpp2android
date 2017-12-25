@@ -32,6 +32,7 @@ For AndroidStudio 3.0.1:
 
    Where `main_layout` is ViewGroup which will be considered by cpp2android, as root layout.
 
+ * Your c++ entry point at cpp/main.h . If you need, you may put additional jnicall's at cpp/bootstrap/cpp2android/bootsrtap.cxx
 
 
 
