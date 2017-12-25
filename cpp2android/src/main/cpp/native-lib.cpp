@@ -21,7 +21,7 @@
 #include "cpp2android/jni_interface/SignalSender.h"
 //#include "jni_interface/JavaObject.h"
 
-#include <cpp2android/bootstrap.cpp>
+#include <cpp2android/bootstrap.cxx>
 
 extern "C"
 jint JNI_OnLoad(JavaVM* vm, void* reserved)
